@@ -1,0 +1,218 @@
+<!doctype html>
+<!--
+  Reshmi's resume. Edit the text here, then regenerate public/resume.pdf
+  (the portfolio's "Download resume" button serves that file).
+  Anything in [square brackets] still needs her real details.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Reshmi — Frontend Developer — Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <style>
+      @page {
+        size: A4;
+        margin: 11mm 15mm;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 10pt;
+        line-height: 1.32;
+        color: #1f2937;
+      }
+      a {
+        color: #2563eb;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 6pt;
+      }
+      h1 {
+        margin: 0;
+        font-size: 22pt;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        color: #1e293b;
+      }
+      .title {
+        margin: 1pt 0 5pt;
+        font-size: 12pt;
+        color: #4b5563;
+      }
+      .contact {
+        margin: 0;
+        font-size: 9.5pt;
+        color: #4b5563;
+      }
+      .contact .dot {
+        margin: 0 5pt;
+      }
+
+      section {
+        margin-top: 8pt;
+      }
+      h2 {
+        margin: 0 0 5pt;
+        padding-bottom: 2pt;
+        border-bottom: 1.2pt solid #1e293b;
+        font-size: 11pt;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #1e293b;
+      }
+      p {
+        margin: 0;
+      }
+
+      .skills p {
+        margin: 1.5pt 0;
+      }
+      .skills b {
+        color: #111827;
+      }
+
+      .item {
+        margin-bottom: 4.5pt;
+        break-inside: avoid;
+      }
+      .item-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12pt;
+        font-weight: 700;
+        color: #111827;
+      }
+      .item-head .when {
+        flex-shrink: 0;
+        font-weight: 400;
+        font-style: italic;
+        color: #6b7280;
+      }
+      ul {
+        margin: 2pt 0 0;
+        padding-left: 20pt;
+      }
+      li {
+        margin: 1pt 0;
+        padding-left: 2pt;
+      }
+
+      /* On screen, show it as a sheet of paper. */
+      @media screen {
+        html {
+          background: #e5e7eb;
+        }
+        body {
+          width: 210mm;
+          min-height: 297mm;
+          margin: 24px auto;
+          padding: 14mm 16mm;
+          background: #fff;
+          box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>RESHMI</h1>
+      <p class="title">Frontend Developer</p>
+      <p class="contact">
+        Kolkata, India<span class="dot">•</span><a href="tel:+916207026720">+91 6207 026 720</a><span class="dot">•</span><a href="mailto:reshmi0905kumari@gmail.com">reshmi0905kumari@gmail.com</a
+        ><span class="dot">•</span><a href="https://www.linkedin.com/in/reshmi-kumari-183514442">LinkedIn</a><span class="dot">•</span><a href="https://github.com/Reshmii143">GitHub</a
+        ><span class="dot">•</span><a href="https://reshmi-portfolio-six.vercel.app">Portfolio</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Fresher Frontend Developer with hands-on project experience building responsive, accessible web interfaces using React.js, Next.js,
+        JavaScript (ES6+), HTML5 and CSS3. Comfortable turning Figma designs into clean, reusable components and taking projects from idea
+        to deployment. Third-year B.Tech student at Netaji Subhash Engineering College, Kolkata (graduating 2028), eager to grow as a
+        frontend engineer on a product team.
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2>Technical Skills</h2>
+      <p><b>Languages:</b> HTML5, CSS3, JavaScript (ES6+)</p>
+      <p><b>Frameworks &amp; Libraries:</b> React.js, Next.js, Tailwind CSS</p>
+      <p><b>Tools &amp; Practices:</b> Git &amp; GitHub, VS Code, Figma, npm, Vercel, Chrome DevTools, Responsive UI Design</p>
+      <p><b>Currently Learning:</b> Testing with Vitest, Web Performance, Accessibility (WCAG)</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="item">
+        <div class="item-head">
+          <span>Personal Portfolio | Next.js + React.js + CSS &nbsp;·&nbsp; <a href="https://reshmi-portfolio-six.vercel.app">Live</a> · <a href="https://github.com/Reshmii143/Portfolio">Code</a></span
+          ><span class="when">2026</span>
+        </div>
+        <ul>
+          <li>Built and deployed an interactive portfolio with Next.js (App Router) and React.js on Vercel, giving recruiters a single link to projects, skills and resume.</li>
+          <li>Designed a scroll-driven project showcase that pins in place and flips to the next project as visitors scroll, so every project gets full-screen attention.</li>
+          <li>Created draggable Figma-style frames, cursor-following eyes and a canvas dot grid that reacts to the mouse, making the site memorable and hands-on.</li>
+          <li>Made it fully responsive from 320px phones to large desktops, loaded heavy animations only after the page appears, and respected users’ reduced-motion settings.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <span>Solar System | HTML5 + CSS3 (no JavaScript) &nbsp;·&nbsp; <a href="https://github.com/Reshmii143/Solar-System-CsS">Code</a></span
+          ><span class="when">2026</span>
+        </div>
+        <ul>
+          <li>Built an animated model of the solar system using only HTML and CSS, with zero JavaScript, in under 200 lines of code.</li>
+          <li>Animated all 8 planets around the Sun with CSS @keyframes, giving each orbit its own speed (10s for Mercury up to 54s for Neptune) so inner planets visibly move faster, like the real thing.</li>
+          <li>Created the glowing Sun, space backdrop and planets with radial gradients and box-shadow glows instead of images, keeping the page to just two lightweight files.</li>
+        </ul>
+      </div>
+      <div class="item">
+        <div class="item-head">
+          <span>To-do List | JavaScript (ES6+) + HTML5 + CSS3 &nbsp;·&nbsp; <a href="https://github.com/Reshmii143/JS-Project/tree/main/03-todo-list">Code</a></span
+          ><span class="when">2026</span>
+        </div>
+        <ul>
+          <li>Worked on a vanilla JavaScript to-do app (from an open-source collection by Petro Komar) with full CRUD: add, edit inline, mark complete and clear all tasks.</li>
+          <li>Saves tasks to localStorage as JSON, so the list survives page refreshes and browser restarts with no backend.</li>
+          <li>Supports Enter-to-add/save, ignores blank tasks and shows a live task counter, with completed tasks struck through.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <div class="item-head">
+          <span>B.Tech (currently in 3rd year) | Netaji Subhash Engineering College, Kolkata, West Bengal</span><span class="when">Expected 2028</span>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-head">
+          <span>Schooling | Oxbridge School, Mander, Ranchi</span><span class="when">2023</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Responsive Web Design – freeCodeCamp (2025)</li>
+        <li>JavaScript Algorithms and Data Structures – freeCodeCamp (2025)</li>
+        <li>Meta Front-End Developer – Coursera (2025)</li>
+        <li>React – The Complete Guide – Udemy (2024)</li>
+      </ul>
+    </section>
+  </body>
+</html>
